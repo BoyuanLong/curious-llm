@@ -8,19 +8,6 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 tools = [
-#   {
-#       "type": "function",
-#       "function": {
-#           "name": "get_memory",
-#           "description": "Retrieve your memory from a knowledge base based on a query",
-#           "parameters": {
-#               "type": "object",
-#               "properties": {
-#                   "query": {"type": "string"}
-#               },
-#           },
-#       },
-#   },
   {
       "type": "function",
       "function": {
